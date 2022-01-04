@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" modified="2022-01-04T17:29:53.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8BKdvr_3QmxTl_I7fIWG" version="16.0.2" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1078" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="&lt;font face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&gt;API Management Flow&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;strokeColor=#4FAEEA;" parent="1" vertex="1">
+          <mxGeometry x="22" y="40" width="1040" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" value="API Owner" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="160" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-8" value="Access API for deploying API to external portal" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-6" value="Fills the information needed for deploying the API" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;exitX=-0.03;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="77e6c97f196da883-2" source="pbEYkyK1KKgtRyMHlohs-20" target="77e6c97f196da883-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8" y="240" />
+              <mxPoint x="8" y="54" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-20" value="Notifies the API owner or denial for rework" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-2" source="pbEYkyK1KKgtRyMHlohs-61" target="pbEYkyK1KKgtRyMHlohs-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-61" value="Notify the&amp;nbsp; API deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-66" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#4FAEEA;fillColor=#083488;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="70" y="530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;strokeColor=#6666FF;" parent="77e6c97f196da883-1" source="77e6c97f196da883-8" target="77e6c97f196da883-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-1" value="EAI" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-1">
+          <mxGeometry x="160" y="20" width="200" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6666FF;" edge="1" parent="pbEYkyK1KKgtRyMHlohs-1" source="pbEYkyK1KKgtRyMHlohs-9" target="pbEYkyK1KKgtRyMHlohs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-9" value="Receives notification on API deployment request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="38" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="pbEYkyK1KKgtRyMHlohs-1" source="pbEYkyK1KKgtRyMHlohs-11" target="pbEYkyK1KKgtRyMHlohs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-11" value="Logs into the API management portal to view the request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="38" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-15" value="Approve?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#4FAEEA;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="63" y="230" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-24" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="110" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-27" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="113" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-59" value="Notify the&amp;nbsp; API deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-1">
+          <mxGeometry x="38" y="465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="Portal Admin" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="360" y="20" width="200" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-11" value="Displays the API details screen for deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="58" y="29" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-7" value="Submits the request for Deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="99" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="pbEYkyK1KKgtRyMHlohs-7" target="pbEYkyK1KKgtRyMHlohs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-12" value="Views the API request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="159" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-17" value="Deny the request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="219" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-3" source="pbEYkyK1KKgtRyMHlohs-25" target="pbEYkyK1KKgtRyMHlohs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-25" value="Approve the request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="269" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-3" source="pbEYkyK1KKgtRyMHlohs-30" target="pbEYkyK1KKgtRyMHlohs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-30" value="Create the proxies" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-3" source="pbEYkyK1KKgtRyMHlohs-35" target="pbEYkyK1KKgtRyMHlohs-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-35" value="Create the CI / CD Pipeline" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-3" source="pbEYkyK1KKgtRyMHlohs-52" target="pbEYkyK1KKgtRyMHlohs-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-52" value="Trigger Proxy Deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-58" value="Notify the&amp;nbsp; API deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="58" y="465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-4" value="Git Repository" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="560" y="20" width="160" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-28" value="Check in the code" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="30" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-29" value="Azzure Devops" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-1">
+          <mxGeometry x="720" y="20" width="160" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-50" value="Deploy the pipeline" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-29">
+          <mxGeometry x="27" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-53" value="Deploy the proxy" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-29">
+          <mxGeometry x="27" y="420" width="98" height="29.4" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-2" value="APIM" style="swimlane;html=1;startSize=20;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=#083488;fontColor=#FFFFFF;strokeColor=#4FAEEA;" vertex="1" parent="77e6c97f196da883-1">
+          <mxGeometry x="880" y="20" width="160" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-56" value="Deploy the proxy" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Montserrat;fontSize=8;align=center;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=#4FAEEA;" vertex="1" parent="pbEYkyK1KKgtRyMHlohs-2">
+          <mxGeometry x="38" y="420" width="98" height="29.4" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-11" target="pbEYkyK1KKgtRyMHlohs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458" y="180" as="sourcePoint" />
+            <mxPoint x="248" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="100" />
+              <mxPoint x="70" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-7" target="pbEYkyK1KKgtRyMHlohs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-11" target="pbEYkyK1KKgtRyMHlohs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-15" target="pbEYkyK1KKgtRyMHlohs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-17" target="pbEYkyK1KKgtRyMHlohs-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458" y="250" as="sourcePoint" />
+            <mxPoint x="88" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="230" />
+              <mxPoint x="70" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-15" target="pbEYkyK1KKgtRyMHlohs-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-30" target="pbEYkyK1KKgtRyMHlohs-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-35" target="pbEYkyK1KKgtRyMHlohs-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-52" target="pbEYkyK1KKgtRyMHlohs-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-53" target="pbEYkyK1KKgtRyMHlohs-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-58" target="pbEYkyK1KKgtRyMHlohs-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbEYkyK1KKgtRyMHlohs-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=8;strokeColor=#6666FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="pbEYkyK1KKgtRyMHlohs-58" target="pbEYkyK1KKgtRyMHlohs-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="505" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="368" y="500" />
+              <mxPoint x="368" y="470" />
+              <mxPoint x="80" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5WUj9LV7zyZnJoSoSZw-69" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
